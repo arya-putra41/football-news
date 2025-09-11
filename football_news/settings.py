@@ -14,6 +14,7 @@ from pathlib import Path
 
 import os
 from dotenv import load_dotenv
+
 # Load environment variables from .env file
 load_dotenv()
 
@@ -34,7 +35,7 @@ DEBUG = True
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "arya-putra41-footballnews.pbp.cs.ui.ac.id"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://arya-putra41-footballnews.pbp.cs.ui.ac.id/"
+    "https://arya-putra41-footballnews.pbp.cs.ui.ac.id"
 ]
 
 # Application definition
