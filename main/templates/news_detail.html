@@ -15,4 +15,10 @@
 
     <p>{{ news.content }}</p>
 
+    {% if news.user %}
+        <p><i>Written by {{ news.user.username }}</i></p>
+    {% else %}
+        <p><i>Written by Anonymous</i></p>
+    {% endif %}
+
 {% endblock content %}
